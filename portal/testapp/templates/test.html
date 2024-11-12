@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MCQ Example</title>
+  </head>
+  <body>
+    <h2>{{que}}</h2>
+    <form action="/submit_answer" method="post">
+      <label>
+        <input type="radio" name="answer" value="A" />
+        A.  {{a}}</label
+      ><br />
+
+      <label>
+        <input type="radio" name="answer" value="B" />
+        B. {{b}} </label
+      ><br />
+
+      <label>
+        <input type="radio" name="answer" value="C" />
+        C. {{c}}  </label
+      ><br />
+
+      <label>
+        <input type="radio" name="answer" value="D" />
+        D. {{d}} </label
+      ><br /><br />
+
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
